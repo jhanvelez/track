@@ -1,0 +1,27 @@
+{
+  "name": "tracker",
+  "version": "1.0.0",
+  "description": "GPS TRACKER",
+  "main": "index.js",
+  "scripts": {
+    "gps-tracking": "nodemon ./gps-tracking.js",
+    "location-io": "nodemon ./location-io.js",
+    "socket-io": "nodemon ./socket-io.js",
+    "gpstracker": "nodemon ./index.js"
+  },
+  "author": "Juan Pablo Tabares",
+  "license": "ISC",
+  "dependencies": {
+    "events": "^3.3.0",
+    "express": "^4.17.3",
+    "gps-tracking": "^1.1.1",
+    "gpstracker": "^0.0.4",
+    "location.io": "^0.0.4",
+    "mysql2": "^2.3.3",
+    "sequelize": "^6.19.0",
+    "socket.io": "^4.4.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
