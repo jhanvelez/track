@@ -1,4 +1,4 @@
 # track
 
-npm install
-npm run gpstracker
+# npm install
+# npm run gpstracker
