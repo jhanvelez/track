@@ -1,4 +1,4 @@
-# track
+# Track
 
 ### `npm install`
 
