@@ -1,7 +1,7 @@
 const { Sequelize } = require('sequelize');
 
-const sequelize = new Sequelize('trackinglab_gps', 'trackinglab_gps', 'Tecnolab2023**', {
-    host: '204.93.224.133',
+const sequelize = new Sequelize('gps', 'root', 'Jhan2305', {
+    host: 'localhost',
     dialect: 'mysql',
     port: '3306',
     define: {
